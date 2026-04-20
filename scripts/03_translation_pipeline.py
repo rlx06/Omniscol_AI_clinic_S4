@@ -116,7 +116,7 @@ def contains_french_leak(source_text: str, translated_text: str) -> bool:
     source_clean = source_text.strip().lower()
     translated_clean = translated_text.strip().lower()
 
-    if len(source_clean) < 4:
+    if len(source_clean) <= 4:
         return False
 
     # Skip values that are legitimately untranslatable
@@ -126,7 +126,8 @@ def contains_french_leak(source_text: str, translated_text: str) -> bool:
         r"^[A-Z]+$",                                    # all-caps acronym (JSON, HTML...)
         r"^\{[^{}]+\}$",                                # pure single placeholder {name}
         r"^[\d\s\-+().]+$",                             # phone / pure digits
-        r"^[\w\-]+\.(pdf|csv|xlsx|json|xml|png|jpg)$", # simple filename
+        r"^[\w\-]+\.(pdf|csv|xlsx|json|xml|png|jpg)$",
+        r"^[A-Za-z0-9_\-\.]+$",   # single technical word / acronym (JSON, PDF, CSV, OAuth...)# simple filename
     ]
 
     for pattern in SKIP_TRANSLATION_PATTERNS:

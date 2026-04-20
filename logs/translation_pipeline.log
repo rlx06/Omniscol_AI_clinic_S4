@@ -202,3 +202,99 @@
 2026-04-20 20:11:36,695 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-20 20:11:36,699 | WARNING | Saved validation report: reports\chunk_3_validation.md
 2026-04-20 20:11:36,699 | ERROR | Non-retryable error on chunk 3/7 after 70.86s: Chunk 3 failed validation after 5 attempts: edt.pdf.all_classes.filename: translated value appears unchanged from French source | edt.pdf.some_classes.filename: translated value appears unchanged from French source | edt.pdf.one_class.filename: translated value appears unchanged from French source
+2026-04-20 20:13:58,011 | INFO | Starting language generation for ml (Malayalam)
+2026-04-20 20:13:58,463 | INFO | Splitting into 7 chunks for Malayalam
+2026-04-20 20:13:58,463 | INFO | Translating chunk 1/7
+2026-04-20 20:13:58,464 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:14:44,659 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:14:44,663 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:14:44,663 | WARNING | Chunk 1 validation failed on attempt 1/5. Retrying.
+2026-04-20 20:14:44,663 | INFO | Waiting 2.01s before retry
+2026-04-20 20:14:46,674 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:15:30,085 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:15:30,089 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:15:30,090 | WARNING | Chunk 1 validation failed on attempt 2/5. Retrying.
+2026-04-20 20:15:30,090 | INFO | Waiting 4.69s before retry
+2026-04-20 20:15:34,783 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:16:20,611 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:16:20,616 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:16:20,616 | WARNING | Chunk 1 validation failed on attempt 3/5. Retrying.
+2026-04-20 20:16:20,616 | INFO | Waiting 8.00s before retry
+2026-04-20 20:16:28,620 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:17:14,451 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:17:14,454 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:17:14,454 | WARNING | Chunk 1 validation failed on attempt 4/5. Retrying.
+2026-04-20 20:17:14,454 | INFO | Waiting 16.63s before retry
+2026-04-20 20:17:31,088 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:18:17,089 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:18:17,093 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:18:17,093 | ERROR | Non-retryable error on chunk 1/7 after 46.01s: Chunk 1 failed validation after 5 attempts: JSON: translated value appears unchanged from French source
+2026-04-20 20:19:51,647 | INFO | Starting language generation for ml (Malayalam)
+2026-04-20 20:19:52,153 | INFO | Splitting into 7 chunks for Malayalam
+2026-04-20 20:19:52,154 | INFO | Translating chunk 1/7
+2026-04-20 20:19:52,154 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:20:40,974 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:20:40,981 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:20:40,981 | WARNING | Chunk 1 validation failed on attempt 1/5. Retrying.
+2026-04-20 20:20:40,981 | INFO | Waiting 2.34s before retry
+2026-04-20 20:20:43,322 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:21:28,535 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:21:28,543 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:21:28,544 | WARNING | Chunk 1 validation failed on attempt 2/5. Retrying.
+2026-04-20 20:21:28,544 | INFO | Waiting 4.73s before retry
+2026-04-20 20:21:33,275 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:22:20,256 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:22:20,260 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:22:20,260 | WARNING | Chunk 1 validation failed on attempt 3/5. Retrying.
+2026-04-20 20:22:20,260 | INFO | Waiting 8.81s before retry
+2026-04-20 20:22:29,072 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:23:15,935 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:23:15,941 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:23:15,941 | WARNING | Chunk 1 validation failed on attempt 4/5. Retrying.
+2026-04-20 20:23:15,941 | INFO | Waiting 16.63s before retry
+2026-04-20 20:23:32,576 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:24:18,992 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:24:18,997 | WARNING | Saved validation report: reports\chunk_1_validation.md
+2026-04-20 20:24:18,997 | ERROR | Non-retryable error on chunk 1/7 after 46.42s: Chunk 1 failed validation after 5 attempts: JSON: translated value appears unchanged from French source
+2026-04-20 20:28:18,723 | INFO | Starting language generation for ml (Malayalam)
+2026-04-20 20:28:19,245 | INFO | Splitting into 7 chunks for Malayalam
+2026-04-20 20:28:19,245 | INFO | Translating chunk 1/7
+2026-04-20 20:28:19,246 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:29:06,808 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:29:06,813 | INFO | Chunk 1/7 translated in 47.57s
+2026-04-20 20:29:06,813 | INFO | Translating chunk 2/7
+2026-04-20 20:29:06,814 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:30:02,248 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:30:02,252 | INFO | Chunk 2/7 translated in 55.44s
+2026-04-20 20:30:02,252 | INFO | Translating chunk 3/7
+2026-04-20 20:30:02,253 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:31:12,475 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:31:12,478 | INFO | Chunk 3/7 translated in 70.23s
+2026-04-20 20:31:12,478 | INFO | Translating chunk 4/7
+2026-04-20 20:31:12,479 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:33:14,615 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:33:14,619 | INFO | Chunk 4/7 translated in 122.14s
+2026-04-20 20:33:14,619 | INFO | Translating chunk 5/7
+2026-04-20 20:33:14,619 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:34:09,603 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:34:09,606 | INFO | Chunk 5/7 translated in 54.99s
+2026-04-20 20:34:09,606 | INFO | Translating chunk 6/7
+2026-04-20 20:34:09,607 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:35:01,481 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:35:01,485 | INFO | Chunk 6/7 translated in 51.88s
+2026-04-20 20:35:01,485 | INFO | Translating chunk 7/7
+2026-04-20 20:35:01,485 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:35:02,002 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-20 20:35:02,004 | WARNING | Retrying chunk 7/7 (attempt 1/5) after 0.52s: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-20 20:35:02,004 | INFO | Waiting 2.44s before retry
+2026-04-20 20:35:04,444 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:35:14,160 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:35:14,162 | INFO | Chunk 7/7 translated in 9.72s
+2026-04-20 20:35:14,607 | INFO | Splitting into 1 chunks for Malayalam
+2026-04-20 20:35:14,607 | INFO | Translating chunk 1/1
+2026-04-20 20:35:14,607 | INFO | AFC is enabled with max remote calls: 10.
+2026-04-20 20:35:46,741 | INFO | HTTP Request: POST https://europe-west4-aiplatform.googleapis.com/v1/projects/erudite-bonbon-457709-p9/locations/europe-west4/publishers/google/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-20 20:35:46,744 | INFO | Chunk 1/1 translated in 32.14s
+2026-04-20 20:35:46,748 | INFO | Saved: languages\ml_webapp.json
+2026-04-20 20:35:46,748 | INFO | Saved: languages\ml_login.json
+2026-04-20 20:35:46,748 | INFO | Generated ml language files
