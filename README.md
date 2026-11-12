@@ -1,4 +1,32 @@
- PIPELINE EXPLANATION
+# Omniscol Translation Pipeline: AI Clinic (Semester 4)
+
+An LLM-powered pipeline that generates, validates and maintains the multilingual UI translations (~1,200+ keys, 14 languages) for **Omniscol**, a school-scheduling platform. It was built during the AI Clinic at aivancity (Semester 4, 2026).
+
+> This is **Version 1** (chunk-based translation). The improved, concept-aware **Version 2**, built during the follow-up internship, has semantic batching, translation memory, 35 unit tests and CI. It lives in **[omniscol-translation-pipeline-v2-INTERNSHIP](https://github.com/rlx06/omniscol-translation-pipeline-v2-INTERNSHIP)**.
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+export OMNISCOL_TOKEN=...        # API token (never commit it)
+gcloud auth application-default login   # Vertex AI / Gemini access
+
+python scripts/01_fetch_from_api.py --lang fr                         # pull the French reference files
+python scripts/03_translation_pipeline.py generate-language pl Polish  # translate a whole language
+python scripts/03_translation_pipeline.py sync-missing-keys --map '{"pl": "Polish"}'
+python scripts/03_translation_pipeline.py audit                        # audit report
+```
+
+| Folder | Contents |
+|---|---|
+| `data/source/` | French reference JSON plus the glossary (source of truth) |
+| `languages/` | Generated translation files, one per language and module |
+| `reports/` | Validation and audit reports |
+| `scripts/` | Fetch and translation pipeline scripts |
+
+---
+
+PIPELINE EXPLANATION
 
 
 ## Translation Pipeline Design
